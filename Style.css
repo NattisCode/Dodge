@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+body{
+margin:0;
+font-family:'Bangers', cursive;
+background:#111;
+color:white;
+text-align:center;
+overflow:hidden;
+}
+
+#menu{
+position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+}
+
+h1{
+font-size:60px;
+color:yellow;
+text-shadow:3px 3px red;
+}
+
+button{
+font-family:'Bangers';
+font-size:20px;
+padding:10px 20px;
+margin:5px;
+border:none;
+border-radius:10px;
+background:#ff4757;
+color:white;
+}
+
+#hud{
+position:absolute;
+top:10px;
+left:10px;
+font-size:30px;
+}
+
+#pauseScreen{
+position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+font-size:80px;
+display:none;
+}
