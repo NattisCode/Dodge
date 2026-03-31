@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Comic Dodge Game</title>
+
+<link rel="stylesheet" href="style.css">
+
+<script src="skins.js" defer></script>
+<script src="menu.js" defer></script>
+<script src="pause.js" defer></script>
+<script src="sound.js" defer></script>
+<script src="game.js" defer></script>
+
+</head>
+
+<body>
+
+<div id="menu">
+<h1>💥 COMIC DODGE 💥</h1>
+<button onclick="startGame()">PLAY</button>
+
+<h3>Skins</h3>
+<button onclick="setSkin('green')">🟢</button>
+<button onclick="setSkin('blue')">🔵</button>
+<button onclick="setSkin('pink')">🌸</button>
+
+<p>High Score: <span id="highScore">0</span></p>
+</div>
+
+<canvas id="gameCanvas"></canvas>
+
+<div id="hud">
+<span id="score">0</span>
+<button onclick="togglePause()">⏸</button>
+</div>
+
+<div id="pauseScreen">PAUSED</div>
+
+</body>
+</html>
